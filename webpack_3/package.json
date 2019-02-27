@@ -1,0 +1,19 @@
+{
+  "name": "webpack_3",
+  "version": "1.0.0",
+  "description": "test webpack 3",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server --entry ./src/js/app.js --output-filename ./dist/bundle.js",
+    "build": "webpack"    
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "css-loader": "^2.1.0",
+    "style-loader": "^0.23.1"
+  }
+}
